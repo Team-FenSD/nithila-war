@@ -1,0 +1,92 @@
+/*Poppins Font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header {
+  margin-top: 60px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: radial-gradient(black, #1b1b1b);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: top;
+  box-shadow: 10px #1b1b1b;
+}
+.content {
+  text-align: center;
+}
+.heading {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 80px;
+  line-height: 60px;
+  margin-bottom: 80px;
+  animation: txtshw 3s infinite linear;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: Poppins;
+}
+.heading .small {
+  display: block;
+  font-size: 40px;
+}
+.heading .no-fill {
+  font-style: italic;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #e1e1e1b3;
+  color: #000000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.blogs-section {
+  width: 100%;
+  padding: 50px 5vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+}
+.blog-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.blog-overview {
+  margin: 10px 0 20px;
+  line-height: 30px;
+}
+.btn.dark {
+  background: #1b1b1b;
+  color: #fff;
+}
+@keyframes txtshw {
+  0% {
+    text-shadow: 8px 8px red;
+  }
+  25% {
+    text-shadow: 8px 8px blue;
+  }
+  50% {
+    text-shadow: 8px 8px magenta;
+  }
+  75% {
+    text-shadow: 8px 8px green;
+  }
+  100% {
+    text-shadow: 8px 8px yellow;
+  }
+}
+.btn.about {
+  box-shadow: 10px 10px red;
+}
+footer {
+  text-align: center;
+  color: #000;
+  text-decoration: underline;
+  background-color: #ccc;
+}
